@@ -1,0 +1,151 @@
+body
+{
+   margin: 0;
+   
+   background-color: #f7f7f7;
+}
+
+.content-column
+{
+   margin-left: auto;
+   margin-right: auto;
+   
+   padding-top: 1rem;
+   padding-bottom: 3rem;
+   
+   padding-left: 2rem;
+   padding-right: 2rem;
+   
+   width: 60%;
+   min-height: 30rem;
+   
+   background-color: #e6e6e6;
+   
+   border-left: 1px solid lightblue;
+   border-right: 1px solid lightblue;
+   border-bottom: 1px solid lightblue;
+}
+
+.content-column .toc
+{
+   background-color: #f7f7f7;
+   
+   padding: 1rem;
+   
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+}
+
+.content-column .toc-item
+{
+   padding: 0.5em;
+}
+
+.content-column .toc-item.toc-level-1
+{
+   padding-left: 4em;
+}
+
+.content-column .toc-item.toc-level-2
+{
+   padding-left: 8em;
+}
+
+.content-column typename
+{
+   color: #737949;
+}
+
+.content-column function_name
+{
+   color: #ab66ff;
+}
+
+.content-column program_name
+{
+   color: #66abff;
+   
+   font-weight: bold;
+}
+
+.content-column pre > code
+{
+   background-color: white;
+   box-shadow: 0.5rem 0.5rem 0.5rem #d5d5d5;
+   
+   border-radius: 0.4rem;
+   
+   padding: 1rem;
+   
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+   
+   font-size: 85%;
+}
+
+.content-column .program_output
+{
+   font-family: monospace;
+   font-weight: bold;
+   
+   background-color: black;
+   color: white;
+   
+   box-shadow: 0.5rem 0.5rem 0.5rem #d5d5d5;
+   
+   border-radius: 0.4rem;
+   
+   padding: 1rem;
+   
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+   
+   white-space: pre;
+}
+
+.content-column .command_line
+{
+   font-family: monospace;
+   font-weight: bold;
+   
+   background-color: black;
+   color: white;
+   
+   box-shadow: 0.5rem 0.5rem 0.5rem #d5d5d5;
+   
+   border-radius: 0.4rem;
+   
+   padding: 1rem;
+   
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+   
+   white-space: pre;
+}
+
+.content-column .text_file
+{
+   font-family: monospace;
+   
+   background-color: white;
+   color: black;
+   
+   box-shadow: 0.5rem 0.5rem 0.5rem #d5d5d5;
+   
+   padding: 1rem;
+   
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+   
+   white-space: pre;
+}
+
+.content-column p.go_back_hyperlink
+{
+   color: #aeaeae;
+}
+
+.content-column p.go_back_hyperlink > a
+{
+   color: #aeaeae;
+}
